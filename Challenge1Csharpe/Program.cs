@@ -6,4 +6,7 @@ string userName;
 Console.WriteLine("Please enter your name and press enter: ");
 userName = Console.ReadLine();
 
-Console.WriteLine(userName);
+Console.WriteLine(userName.ToUpper());
+Console.WriteLine(userName.ToLower());
+Console.WriteLine(userName.Trim());
+Console.WriteLine(userName.Substring(1));
